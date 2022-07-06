@@ -21,7 +21,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return sum;
 }
 
- console.log(sumOfNumbers([2, 4, 6, 7, 8,]))
+ console.log(sumOfNumbers([2, 4, 6, 7, 8,]));
 
 /**
  * Challenge - 2
