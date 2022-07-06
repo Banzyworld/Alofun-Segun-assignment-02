@@ -22,6 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
 }
 
  console.log(sumOfNumbers([2, 4, 6, 7, 8,]))
+
 /**
  * Challenge - 2
  * 
@@ -41,7 +42,6 @@ function countEvenNumbers(arrayOfNumbers) {
   }
   return sumEven;
 }
-
 
 console.log(countEvenNumbers([-4, 1, 2, 6, 5, 9, 2, 7, 9]));
 
