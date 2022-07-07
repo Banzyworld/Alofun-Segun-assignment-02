@@ -20,9 +20,8 @@ function sumOfNumbers(arrayOfNumbers) {
   }
     return sum;
 }
-
- console.log(sumOfNumbers([2, 4, 6, 7, 8,]));
-
+// sumOfNumbers([2, 4, 6, 7, 8,])
+assignment.sumOfNumbers = sumOfNumbers
 /**
  * Challenge - 2
  * 
@@ -33,17 +32,16 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let sumEven = 0;
+  let evenNumber = 0;
   for(i = 0; i <  arrayOfNumbers.length; i++){
     if(arrayOfNumbers[i] % 2 === 0){
-      sumEven += arrayOfNumbers[i]
+      evenNumber++
     }
-    
-  }
-  return sumEven;
+      }
+  return evenNumber;
 }
-
-console.log(countEvenNumbers([-4, 1, 2, 6, 5, 9, 2, 7, 9]));
+// console.log(countEvenNumbers([ 1, 2, 6, 5, 9, 2, 7, 9]))
+assignment.countEvenNumbers = countEvenNumbers
 
 /**
  * Challenge - 3
